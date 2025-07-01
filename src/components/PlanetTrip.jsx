@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { NASA_API_KEY, API_ENDPOINTS } from '../config';
+import { NASA_API_KEY, API_ENDPOINTS } from '../config.env';
 import LoadingScreen from './LoadingScreen';
 
 // Planet data with some basic information

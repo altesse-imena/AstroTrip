@@ -4,7 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import { API_ENDPOINTS } from '../config';
+import { API_ENDPOINTS } from '../config.env';
 import LoadingScreen from './LoadingScreen';
 
 // Fix for default marker icons in Leaflet
